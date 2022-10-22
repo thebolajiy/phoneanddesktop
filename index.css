@@ -1,0 +1,579 @@
+.firstnav{
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: 10%;
+    width: 90%;
+    margin-block-start: 2%;
+    padding-left:3%;
+}
+.firstsub{
+    border: 1px;
+    border-radius: 32px;
+    width: 9%;
+    background-color: pink;
+    color: white;
+    font-weight: 700;
+
+}
+
+.one1a{
+    text-align: center;
+    font-size: x-large;
+    margin-block-end: 4%;
+}
+
+
+.secondbtn{
+    width: 20%;
+    background-color: rgb(163, 55, 73);
+    color: white;
+    border-radius: 22px;
+    padding: 1.2rem;
+    border: 1px;
+    font-weight: 700;
+    text-align: center;
+       
+}
+.mockups{
+    text-align: center;
+    margin-block-end: 4%;
+    /* border: 1px solid; */
+    margin-bottom: -1px;
+}
+.screen{
+    width: 60%;
+    
+}
+
+.con3{
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-evenly;
+    margin-block-end: 5%;
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    /* border: 1px solid; */
+    height: 350px;
+    margin-bottom: -1px;
+}
+
+.p1 h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.p2 h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.con4{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 7%;
+    margin-block-end: 5%;
+    /* border: 1px solid; */
+    margin-bottom: -1px;
+    background-color: #F6FBFF;
+    
+}
+.togeda{
+    /* margin-left: 10%; */
+    /* padding: 10%; */
+    width: 51%;
+    padding-top: 90px;
+    
+    
+}
+
+.togeda h2{
+    font-size: 250%;
+    
+}
+.togeda p{
+    font-size: medium;
+}
+
+.grow2{
+    width: 55%;
+    margin-left: 12%;
+
+}
+
+.con5{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 7%;
+    margin-block-end: 5%;
+    /* border: 1px solid; */
+    padding-top: 10%;
+    background-image: url(./images/bg-section-bottom-desktop-1.svg), url(./images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top,bottom;
+    padding-bottom: 15%;
+    margin-bottom: -1px;
+    
+}
+
+.flow{
+    width: 55%;
+    
+}
+
+.conva{
+    width: 80%;
+    margin-top: 4%;
+    
+}
+.conva h2{
+    font-size: 250%;
+}
+.conva p{
+    font-size: medium;
+}
+
+.con6{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6FBFF;
+    padding-left: 7%;
+    margin-block-end: 3%;
+    /* border: 1px solid; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: -20px;
+    
+    
+}
+
+.six1{
+    width: 51%;
+    padding-top: 90px;
+}
+.six1 h2{
+    font-size: 250%;
+    
+}
+.six1 p{
+    font-size: medium;
+}
+.six3{
+    width: 55%;
+    margin-left: 12%;
+}
+.con7{
+    text-align: center;
+    /* margin-block-end: 1%; */
+    /* border: 1px solid; */
+    background-image: url(./images/bg-footer-top-desktop.svg),url(./images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom, top;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    padding-bottom: 90px;
+    
+    
+
+}
+
+.con7 h2{
+    font-size: 250%;
+    padding-left: ;
+    text-align: center;
+    /* margin-block-start: 20%; */
+    padding-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -1%;
+    margin-block-end: 4%;
+    
+    
+    
+}
+.lastsub{
+    width: 20%;
+    background-color: rgb(163, 55, 73);
+    color: white;
+    border-radius: 22px;
+    padding: 1.2rem;
+    border: 1px;
+    font-weight: 700;
+    text-align: center;
+    margin-block-end: 18%;
+ 
+}
+
+
+.con8{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    background-color: #00252E;
+    color: white;
+    margin: -1px;
+    
+ 
+}
+
+.input{
+    border-radius: 9px;
+    text-align: center;
+    height: 17%;
+    width: 60%;
+    margin-block-end: 2%;
+}
+
+.subs{
+    width: 30%;
+    text-align: center;
+    height:22% ;
+    border-radius: 9px;
+    font-size: medium;
+    margin-left: 6%;
+    background-color: rgb(163, 55, 73);
+    color: white;
+    font-weight: 500;
+}
+
+.whatsapp{
+    background-color:yellowgreen;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    width: 10%;
+    height: 60px;
+    position: fixed;
+    left: 85%;
+    bottom: 5%;
+    border-radius: 17px;
+    box-shadow: 2px 1px 6px;
+}
+
+/* DESKTOP FIRST APPROACH */
+@media (max-width: 2560px) {
+  
+}
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 992px) {	
+	
+}
+@media (max-width: 768px) {
+	
+}
+@media (max-width: 430px) {
+
+    .huddle1{
+        width: 30%;
+    }
+    .firstsub{
+        width: 25%;
+        height: 32px;
+        
+    }
+    .firstnav{
+        justify-content: space-between;
+        display: flex;
+        margin-block-start: 6%;
+        padding-left:6%;
+        margin-block-end: 24%;
+        
+    }
+    .Acon{
+        text-align: center;
+        /* margin-block-end: 2%; */
+        
+        
+    }
+    .one1a h1{
+        text-align: center;
+        font-size: xx-large;
+        padding: 6%;
+
+    }
+
+    .one1a p{
+        /* text-align: center; */
+        margin-block-end: 2%;
+        padding: 7%;
+        
+        
+    }
+    
+   
+    .secondbtn{
+        width: 50%;
+        margin-block-end: 19%;
+        
+           
+    }
+    .mockups{
+        text-align: center;
+        
+    }
+    .screen{
+        text-align: center;
+        width: 80%;
+        margin-block-end: 12%;
+        
+    }
+    
+    .con3{
+        display: block;
+        text-align: center;
+        background-image: url(./images/bg-section-top-mobile-1.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        /* border: 1px solid; */
+        height: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 50%;
+        /* margin-block-end: 12%; */
+
+        
+    }
+    .p1{
+        margin-block-end: 12%;
+    }
+    
+    .p1 h2{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    .p1 span{
+        font-size: medium;
+    }
+    
+    .p2 h2{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    
+    .con4{
+        display: block;
+        /* justify-content: space-evenly; */
+        padding-left: 7%;
+        margin-block-end: 5%;
+        /* border: 1px solid; */
+        margin-bottom: -1px;
+        background-color: #F6FBFF;
+        
+        
+    }
+    .togeda{
+        /* margin-left: 10%; */
+        /* padding: 10%; */
+        width: auto;
+        padding-top: 90px;
+        text-align: center;
+        margin-block-end: 20%;
+        
+        
+    }
+    
+    .togeda h2{
+        font-size: 200%;
+        font-weight: bolder;
+        
+        
+    }
+    .togeda p{
+        font-size: 20px;
+        width: 90%;
+        
+    }
+    
+    .grow2{
+        width: 75%;
+        justify-content: center;
+        padding-right: 30%;
+        margin-block-end: 12%;
+    
+    }
+    
+    .con5{
+        display: block;
+        width: auto;
+        text-align: center;
+        /* justify-content: space-evenly; */
+        /* padding-left: 7%; */
+        margin-block-end: 5%;
+        /* border: 1px solid; */
+        padding-top: 40%;
+        background-image: url(./images/bg-section-bottom-mobile-1.svg), url(./images/bg-section-top-mobile-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top,bottom;
+        padding-bottom: 15%;
+        margin-bottom: -1px;
+        
+    }
+    
+    .flow{
+        width: 80%;
+        margin-block-end: 10%;
+        
+    }
+    
+    .conva{
+        width: 80%;
+        margin-top: 4%;
+        margin-block-end: 40%;
+        text-align: center;
+        padding: 10%;
+        
+        
+    }
+    .conva h2{
+        font-size: 150%;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .conva p{
+        font-size: large;
+        
+    }
+    
+    .con6{
+        display: block;
+        
+        background-color: #F6FBFF;
+        /* padding-left: 7%;
+        margin-block-end: 3%; */
+        /* border: 1px solid; */
+        /* padding-top: 5%; */
+        /* padding-bottom: 5%; */
+        /* margin-bottom: -20px; */
+        
+        
+    }
+    
+    .six1{
+        width: 80%;
+        padding-top: 90px;
+        /* text-align: center; */
+        /* margin-block-start: -10%; */
+        margin-block-end: 15%;
+        padding: 10%;
+    }
+    .six1 h2{
+        font-size: 200%;
+        
+    }
+    .six1 p{
+        font-size: larger;
+        text-align: center;
+        
+    }
+    .six3{
+        width: 80%;
+        justify-content: center;
+        margin-left: -8%;
+        margin-block-end: 22%;
+    }
+    .con7{
+        text-align: center;
+        /* margin-block-end: 1%; */
+        /* border: 1px solid; */
+        background-image: url(./images/bg-footer-top-mobile.svg),url(./images/bg-section-bottom-mobile-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom, top;
+        margin-top: 10px;
+        padding-top: 40%;
+        /* margin-bottom: 10px; */
+        padding-bottom: 90px;
+        
+        
+    
+    }
+    
+    .con7 h2{
+        font-size: xx-large;
+        padding-left: ;
+        width: auto;
+        /* text-align: center; */
+        /* margin-block-start: 20%; */
+        padding-top: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin: -1%; */
+        margin-block-end: 14%;
+        
+        
+        
+    }
+    .lastsub{
+        width: 50%;
+        background-color: rgb(163, 55, 73);
+        color: white;
+        border-radius: 22px;
+        padding: 1.2rem;
+        border: 1px;
+        font-weight: 700;
+        text-align: center;
+        margin-block-end: 38%;
+        /* box-shadow: 4px, 48px, 8px; */
+     
+    }
+    
+    
+    .con8{
+        display: block;
+        /* justify-content: space-evenly; */
+        padding: 5%;
+        background-color: #00252E;
+        color: white;
+        margin: -1px;
+        
+     
+    }
+    .eight1{
+        margin-block-end: 40%;
+    }
+    
+    .input{
+        border-radius: 9px;
+        text-align: center;
+        /* height: 17%; */
+        width: 90%;
+        padding: .50rem;
+        margin-block-end: 3%;
+    }
+    
+    .subs{
+        padding: .50rem;
+        width: 45%;
+        text-align: center;
+        border-radius: 9px;
+        font-size: medium;
+        /* margin-left: 6%; */
+        background-color: rgb(203, 24, 54);
+        color: white;
+        font-weight: 800;
+    }
+    
+    .whatsapp{
+        background-color:yellowgreen;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        width: 20%;
+        height: 60px;
+        position: fixed;
+        left: 65%;
+        bottom: 5%;
+        border-radius: 17px;
+        /* box-shadow: 2px 1px 6px; */
+    }
+}
